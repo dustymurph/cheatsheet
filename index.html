@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table reference</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Lexend:wght@100..900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#BoxModel">Box Model</a></li>
+            <li><a href="#Fonts">Fonts</a></li>
+        </ul>
+    </nav>
+
+    <section id="HTML">
+        <article id="Table">
+      <h1>HTML</h1>
+      <h2 class="h2">Table tags</h2>
+      <table>
+        <thead>
+            <tr>
+                <th>Tag (thead 1)</th>
+                <th>Name (thead 2)</th>
+                <th>Description (thead 3)</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>
+                <span class="code">&lt;table&gt;</span>
+            </td>
+            <td>Table</td>
+            <td>Wrapper element for all HTML tables</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">&lt;thead&gt;</span>
+            </td>
+            <td>Table Header <span class="bold">Section</span></td>
+            <td>Set of rows defining the column headers in a table</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">&lt;th&gt;</span>
+            </td>
+            <td>Table Head <span class="bold">Cell</span></td>
+            <td>Individual header cells in a table and used within <span class="code">&lt;tr&gt;</span>, content is bold and centred.</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">&lt;tbody&gt;</span>
+            </td>
+            <td>Table Body</td>
+            <td>Set of rows containing actual table data (like the meat of the table)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">&lt;tr&gt;</span>
+                <td>Table Row</td>
+                <td>Row container</td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">&lt;td&gt;</span>
+            </td>
+            <td>Table Data</td>
+            <td>Single element that holds data one at a time (like this!)</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">&lt;tfoot&gt;</span>
+            </td>
+            <td>Table Foot</td>
+            <td>Footer/of end of the table (for example, a 'Total amount' row)</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h2 class="h2">Table attritbutes</h2>
+    <table>
+        <thead>
+            <th>Attribute</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tr>
+            <td>
+                <span class="code">&lt;colspan&gt;</span>
+            </td>
+            <td>Column Span</td>
+            <td>Defines how many <span class="bold">columns</span> it should span for</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">&lt;rowspan&gt;</span>
+            </td>
+            <td>Row Span</td>
+            <td>Defines how many <span class="bold">rows</span> it should span for</td>
+        </tr>
+            </table>
+         </article>
+
+        <article id="Semantic">
+            <h2>Semantic Markup</h2>
+            <div>
+            <p>Here's an example of how Semantic Markup works. Big shoutout to <a href="https://westcomputing.github.io/cheat-sheet/" target="_blank"/>west221b</a>, whom I took reference from, thank you!</p>
+                <span class="code">
+                    <pre>&lt;html lang="en"&gt;            
+    &lt;head&gt;
+        &lt;title&gt;Title&lt;/title&gt;
+    &lt;/head&gt;
+            
+    &lt;body&gt;
+            
+        &lt;header&gt;
+            Logo, title, navigation
+            &lt;nav&gt;
+                Primary and secondary menus but ever nest navs
+            &lt;/nav&gt;
+        &lt;/header&gt;
+            
+        &lt;section&gt;
+            Related grouping of semantic meaning
+            
+        &lt;article&gt;
+            Self-contained content
+        &lt;/article&gt;
+            
+        &lt;article&gt;
+            Would still make sense if all other content removed
+        
+        &lt;aside&gt;
+            &lt;blockquote&gt;
+                Related to main but outside the main flow
+            &lt;/blockquote&gt;
+        &lt;/aside&gt;
+            
+            &lt;/article&gt;
+        &lt;/section&gt;
+            
+        &lt;footer&gt;
+            Copyright, contact, links
+        &lt;/footer&gt;
+            
+        &lt;/body&gt;
+            
+    &lt;/html&gt;</pre>
+        </div>
+            </span>
+        </article>
+        </section>
+
+    <section id="BoxModel">
+        <article id="boxmodel">
+            <h1>Boxmodel</h1>
+            <p>To be continued...</p>
+        </article>
+    </section>
+</body>
+</html>

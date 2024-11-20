@@ -1,0 +1,105 @@
+body {
+    display: block;
+    margin: 9px
+}
+
+h1 {
+    font-family: "Rubik Mono One", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #aac90c;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Lexend, Arial, sans-serif;
+    font-weight: 300;
+    color: #32a852;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+td {
+    font-family: Commissioner, Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    border-top: 1px solid #bf7ab8;
+    line-height: 150%;
+}
+
+thead {
+    font-family: Commissioner, Arial, Helvetica, sans-serif;
+}
+
+table {
+    position: relative;
+    bottom: 10px;
+    margin: 0 auto;
+    width: 850px;
+}
+
+#Table .code {
+    font-family: monospace;
+}
+
+.bold {
+    font-weight: bold;
+    background-color: #f587b3;
+}
+
+table thead {
+    background-color: aquamarine;
+}
+
+tbody td {
+    background-color: azure;
+}
+
+.menu {
+    background-color: #b8aee8;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+    font-size: 18px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+li a {
+    display: block;
+    font-family: Commissioner, Arial, Helvetica, sans-serif;
+    color: #ffffff; 
+    padding: 5px;
+}
+
+a {
+    color:#32a852;
+    font-weight: 500;
+}
+
+a:hover {
+    background-color: #cbcfb3;
+}
+
+p {
+    font-family: Commissioner, Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+}
+
+#Semantic div {
+    position: relative;
+    background-color: azure;
+    margin: 10px 50px; 
+    padding: 20px;
+}
+
+#Semantic pre {
+    background-color: #000;
+    color: #fff;
+    padding: 3em;
+
+}
